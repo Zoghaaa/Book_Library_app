@@ -79,7 +79,7 @@ export default function Categories() {
           </div>
           </Link>
         </motion.div>
-        <motion.div variants={cardVariants} initial="hidden" animate={inView ? "show" : "hidden"} custom="right" className="h-[150px] md:h-[300px] col-span-2 row-span-2 row-start-3 md:col-span-3 md:row-span-3 md:col-start-4 rounded-2xl bg-[url('./assets/horror.jpg')] bg-cover bg-center shadow-custom">
+        <motion.div variants={cardVariants} initial="hidden" animate={inView ? "show" : "hidden"} custom="right" className="h-[150px] md:h-[300px] col-span-2 row-span-2 row-start-3 md:col-span-3 md:row-span-3 md:col-start-4 rounded-2xl bg-[url('/assets/horror.jpg')] bg-cover bg-center shadow-custom">
         <Link to="/horror" className="relative w-full h-full">
           <div className="relative w-full h-full rounded-2xl group cursor-pointer">
             <button className="absolute top-2 right-2 inline-flex h-9 w-9 items-center justify-center overflow-hidden rounded-full bg-white">
