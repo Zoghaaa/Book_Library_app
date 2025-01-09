@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import BookDetails from './components/BookDetails';
-import Hero from './components/hero';
+import Hero from '@/components/Hero';
 import SearchResults from './components/SearchResults';
 import ContactUs from './components/ContactUs';
 import Categories from './components/Categories';
