@@ -4,11 +4,6 @@
 @tailwind utilities;
 
 
-
-
-
-
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -58,7 +53,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #161617;
 }
 button:focus,
 button:focus-visible {
@@ -75,5 +70,34 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Smooth page transition */
+html, body {
+  scroll-behavior: smooth;
+}
+
+/* Fade-in effect for BookDetails */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
   }
 }
